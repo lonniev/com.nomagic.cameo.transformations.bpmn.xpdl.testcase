@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://www.wfmc.org/2009/XPDL2.2" xmlns:ns2="http://www.wfmc.org/2002/XPDL1.0"
+         xmlns:cbm="http://www.nomagic.com/cbm" Id="_17_0_4_1_132c03d3_1382559769287_839931_13010"
+         Name="BPMN2 Process for Test Case 004" cbm:numberedProperty="P1">
+    <PackageHeader>
+        <XPDLVersion>2.2</XPDLVersion>
+        <Vendor>No Magic, Inc.</Vendor>
+        <Created>13-09-23T14:22:00</Created>
+        <ModificationDate>13-09-23T14:49:49</ModificationDate>
+        <Documentation>Emitted XPDL should be schema-valid against XPDL2.2 from the WfMC and should properly express an
+            Exclusive Gateway with labeled and conditional transitions. It should also specify a BPMN2 Participant for
+            the Global Pool implied by the BPMN2 Diagram itself. Also present in the XPDL should be elements for the
+            four elements, Start, Task A, Task B, and End and for the five Transitions.
+            BPMN2 TC 004 Intention
+        </Documentation>
+        <LayoutInfo PixelsPerMillimeter="2.8346457"/>
+    </PackageHeader>
+    <RedefinableHeader>
+        <Author>lvanzandt</Author>
+        <Version>4</Version>
+        <Codepage>Cp1252</Codepage>
+        <Countrykey>US</Countrykey>
+    </RedefinableHeader>
+    <ConformanceClass GraphConformance="NON_BLOCKED" BPMNModelPortabilityConformance="SIMPLE"/>
+    <Pages>
+        <Page Name="BPMN2 Process for Test Case 004" Id="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="452.0"
+              Width="1130.0"/>
+    </Pages>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="_17_0_4_1_132c03d3_1382559769288_265239_13011" Name="BPMN2 Process for Test Case 004"
+                         AccessLevel="PUBLIC" ProcessType="None" Status="None" SuppressJoinFailure="false"
+                         EnableInstanceCompensation="false" AdHoc="false" AdHocOrdering="Parallel">
+            <ProcessHeader>
+                <Created>13-09-23T14:22:00</Created>
+            </ProcessHeader>
+            <Activities>
+                <Activity Id="_17_0_4_1_132c03d3_1382559769373_530555_13097" Name="None Start Event">
+                    <Event>
+                        <StartEvent Trigger="None" Implementation="Unspecified"/>
+                    </Event>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo ToolId="CBM" IsVisible="true"
+                                          PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="25.0"
+                                          Width="25.0" BorderColor="#424242" FillColor="#FFCC33">
+                            <Coordinates XCoordinate="392.0" YCoordinate="189.0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="_17_0_4_1_132c03d3_1382559769373_744354_13102" IsForCompensation="false" Name="Task B"
+                          StartQuantity="1" CompletionQuantity="1">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo ToolId="CBM" IsVisible="true"
+                                          PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="50.0"
+                                          Width="120.0" BorderColor="#636363" FillColor="#FEEFA5">
+                            <Coordinates XCoordinate="847.0" YCoordinate="176.0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="_17_0_4_1_132c03d3_1382559769373_830608_13100" Name="None End Event">
+                    <Event>
+                        <EndEvent Result="None" Implementation="Unspecified"/>
+                    </Event>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo ToolId="CBM" IsVisible="true"
+                                          PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="25.0"
+                                          Width="25.0" BorderColor="#424242" FillColor="#FFFFFF">
+                            <Coordinates XCoordinate="1010.0" YCoordinate="189.0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="_17_0_4_1_132c03d3_1382559769373_928911_13099" IsForCompensation="false" Name="Task A"
+                          StartQuantity="1" CompletionQuantity="1">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo ToolId="CBM" IsVisible="true"
+                                          PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="50.0"
+                                          Width="120.0" BorderColor="#636363" FillColor="#FEEFA5">
+                            <Coordinates XCoordinate="469.0" YCoordinate="176.0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+                <Activity Id="_17_0_4_1_132c03d3_1382559883221_19934_13172" Name="Ok?">
+                    <Route GatewayType="Exclusive" ExclusiveType="Data" MarkerVisible="false"
+                           GatewayDirection="Diverging"/>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="Exclusive" ExclusiveType="Data">
+                                <TransitionRefs>
+                                    <TransitionRef Id="_17_0_4_1_132c03d3_1382559883233_53327_13179"/>
+                                    <TransitionRef Id="_17_0_4_1_132c03d3_1382559899156_564994_13193"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <NodeGraphicsInfos>
+                        <NodeGraphicsInfo ToolId="CBM" IsVisible="true"
+                                          PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031" Height="40.0"
+                                          Width="40.0" BorderColor="#7C816D" FillColor="#D5D5D5">
+                            <Coordinates XCoordinate="658.0" YCoordinate="181.0"/>
+                        </NodeGraphicsInfo>
+                    </NodeGraphicsInfos>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition Id="_17_0_4_1_132c03d3_1382559769373_361221_13105"
+                            From="_17_0_4_1_132c03d3_1382559769373_928911_13099"
+                            To="_17_0_4_1_132c03d3_1382559883221_19934_13172" Name="">
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo ToolId="CBM" IsVisible="true"
+                                               PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031"
+                                               BorderColor="#424242" FillColor="#FFFFCC">
+                            <Coordinates XCoordinate="589.0" YCoordinate="201.0"/>
+                            <Coordinates XCoordinate="658.0" YCoordinate="201.0"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition Id="_17_0_4_1_132c03d3_1382559769373_583545_13104"
+                            From="_17_0_4_1_132c03d3_1382559769373_530555_13097"
+                            To="_17_0_4_1_132c03d3_1382559769373_928911_13099" Name="">
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo ToolId="CBM" IsVisible="true"
+                                               PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031"
+                                               BorderColor="#424242" FillColor="#FFFFCC">
+                            <Coordinates XCoordinate="417.0" YCoordinate="201.0"/>
+                            <Coordinates XCoordinate="469.0" YCoordinate="201.0"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition Id="_17_0_4_1_132c03d3_1382559769374_477000_13106"
+                            From="_17_0_4_1_132c03d3_1382559769373_744354_13102"
+                            To="_17_0_4_1_132c03d3_1382559769373_830608_13100" Name="">
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo ToolId="CBM" IsVisible="true"
+                                               PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031"
+                                               BorderColor="#424242" FillColor="#FFFFCC">
+                            <Coordinates XCoordinate="967.0" YCoordinate="201.0"/>
+                            <Coordinates XCoordinate="1010.0" YCoordinate="201.0"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition Id="_17_0_4_1_132c03d3_1382559883233_53327_13179"
+                            From="_17_0_4_1_132c03d3_1382559883221_19934_13172"
+                            To="_17_0_4_1_132c03d3_1382559769373_744354_13102" Name="Yes">
+                    <Condition Type="CONDITION">
+                        <Expression>Was Task A Ok?</Expression>
+                    </Condition>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo ToolId="CBM" IsVisible="true"
+                                               PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031"
+                                               BorderColor="#424242" FillColor="#FFFFCC">
+                            <Coordinates XCoordinate="698.0" YCoordinate="201.0"/>
+                            <Coordinates XCoordinate="847.0" YCoordinate="201.0"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+                <Transition Id="_17_0_4_1_132c03d3_1382559899156_564994_13193"
+                            From="_17_0_4_1_132c03d3_1382559883221_19934_13172"
+                            To="_17_0_4_1_132c03d3_1382559769373_830608_13100" Name="No">
+                    <Condition Type="OTHERWISE"/>
+                    <ConnectorGraphicsInfos>
+                        <ConnectorGraphicsInfo ToolId="CBM" IsVisible="true"
+                                               PageId="_17_0_4_1_132c03d3_1382559769325_849826_13031"
+                                               BorderColor="#424242" FillColor="#FFFFCC">
+                            <Coordinates XCoordinate="678.0" YCoordinate="221.0"/>
+                            <Coordinates XCoordinate="678.0" YCoordinate="263.0"/>
+                            <Coordinates XCoordinate="1022.0" YCoordinate="263.0"/>
+                            <Coordinates XCoordinate="1022.0" YCoordinate="214.0"/>
+                        </ConnectorGraphicsInfo>
+                    </ConnectorGraphicsInfos>
+                </Transition>
+            </Transitions>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+</Package>

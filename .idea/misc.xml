@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IdProvider" IDEtalkID="AF934A780D392F075B4B4445CED4AE6D" />
+  <component name="ProjectResources">
+    <resource url="http://www.wfmc.org/2009/XPDL2.2" location="$PROJECT_DIR$/src/samples/schemas/bpmnxpdl_40a.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+

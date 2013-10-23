@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- descriptor for the plugin; note that the id attribute must match the ID used in the code -->
+<plugin
+        id="com.nomagic.cameo.transformations.bpmn.xpdl.testcase"
+        name="Cameo BPMN to XPDL TestCases Plugin"
+        version="0.1"
+        provider-name="No Magic"
+        class="com.nomagic.cameo.transformations.bpmn.xpdl.testcase.CameoTestCasePlugin"
+        ownClassloader="true">
+
+    <requires>
+        <api version="1.0"/>
+    </requires>
+
+    <runtime>
+        <library name="cameo-plugins-testsuite-bpmn2_xpdl2.jar"/>
+    </runtime>
+</plugin>

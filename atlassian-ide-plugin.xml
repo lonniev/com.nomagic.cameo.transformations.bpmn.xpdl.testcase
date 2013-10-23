@@ -1,0 +1,13 @@
+<atlassian-ide-plugin>
+  <project-configuration id="1">
+    <servers id="2">
+      <jira id="3">
+        <server-id id="4">2f08b3e6-0b94-41c2-9a54-6dea3af0dde1</server-id>
+        <name>No Magic Jira (Customer)</name>
+        <url>https://support.nomagic.com</url>
+        <shared>false</shared>
+      </jira>
+    </servers>
+    <default-jira-server id="5">b441ef40-e3cd-4e66-a2d6-67b4b7e128a0</default-jira-server>
+  </project-configuration>
+</atlassian-ide-plugin>

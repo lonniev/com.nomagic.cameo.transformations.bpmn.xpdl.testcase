@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://www.wfmc.org/2009/XPDL2.2" xmlns:ns2="http://www.wfmc.org/2002/XPDL1.0" xmlns:cbm="http://www.nomagic.com/cbm" Id="_17_0_4_1_132c03d3_1382367671539_89247_11961" Name="BPMN2 Process for Test Case 001" cbm:numberedProperty="P1">
+    <PackageHeader>
+        <XPDLVersion>2.2</XPDLVersion>
+        <Vendor>No Magic, Inc.</Vendor>
+        <Created>13-09-21T09:01:00</Created>
+        <ModificationDate>13-09-21T11:50:29</ModificationDate>
+        <Documentation>Emitted XPDL should specify a BPMN2 Participant for the Global Pool implied by the BPMN2 Diagram itself. Also present in the XPDL should be elements for the Text Annotation that is the Test Case Comment and for the Diagram Frame element.
+BPMN2 TC 001 Intention</Documentation>
+        <LayoutInfo PixelsPerMillimeter="2.8346457"/>
+    </PackageHeader>
+    <RedefinableHeader>
+        <Author>lvanzandt</Author>
+        <Version>1</Version>
+        <Codepage>Cp1252</Codepage>
+        <Countrykey>US</Countrykey>
+    </RedefinableHeader>
+    <ConformanceClass GraphConformance="NON_BLOCKED" BPMNModelPortabilityConformance="SIMPLE"/>
+    <Pages>
+        <Page Name="BPMN2 Process for Test Case 001" Id="_17_0_4_1_132c03d3_1382367675219_770855_11981" Height="382.0" Width="676.0"/>
+    </Pages>
+    <Artifacts>
+        <Artifact Id="_17_0_4_1_132c03d3_1382368902482_89193_12200" ArtifactType="Annotation" TextAnnotation="BPMN2 TC 001 Intention">
+            <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="CBM" IsVisible="true" PageId="_17_0_4_1_132c03d3_1382367675219_770855_11981" Height="297.0" Width="189.0" BorderColor="#424242" FillColor="#FFFFFF">
+                    <Coordinates XCoordinate="84.0" YCoordinate="70.0"/>
+                </NodeGraphicsInfo>
+            </NodeGraphicsInfos>
+        </Artifact>
+    </Artifacts>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="_17_0_4_1_132c03d3_1382367671538_789565_11960" Name="BPMN2 Process for Test Case 001" AccessLevel="PUBLIC" ProcessType="None" Status="None" SuppressJoinFailure="false" EnableInstanceCompensation="false" AdHoc="false" AdHocOrdering="Parallel">
+            <ProcessHeader>
+                <Created>13-09-21T09:01:00</Created>
+            </ProcessHeader>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+</Package>

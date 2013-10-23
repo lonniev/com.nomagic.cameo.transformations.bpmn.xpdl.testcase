@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor
+
+        critical="false" date="2013-10-01-06:00"
+        description="No Magic Cameo BPMN to XPDL TestCases Plugin 1, Provider Name: Lonnie VanZandt."
+        group="Plugins"
+        homePage="www.nomagic.com"
+        id="89898" mdVersionMax="higher" mdVersionMin="17.0.4"
+        name="Cameo BPMN to XPDL TestCases Plugin"
+        product="comnomagiccameotransformationsbpmnxpdltestcases"
+        restartMagicdraw="false"
+        type="Plugin">
+
+    <version human="17.0.4-@@@timestamp@@@" internal="17.0.4-@@@timestamp@@@" resource="10"/>
+    <provider email="lvanzandt@nomagic.com" homePage="www.nomagic.com" name="Lonnie VanZandt"/>
+    <edition>Enterprise</edition>
+    <installation>
+        <file from="plugins/com.nomagic.cameo.transformations.bpmn.xpdl.testcase/cameo-plugins-testsuite-bpmn2_xpdl2.jar"
+              to="plugins/com.nomagic.cameo.transformations.bpmn.xpdl.testcase/cameo-plugins-testsuite-bpmn2_xpdl2.jar"/>
+
+        <file from="plugins/com.nomagic.cameo.transformations.bpmn.xpdl.testcase/plugin.xml"
+              to="plugins/com.nomagic.cameo.transformations.bpmn.xpdl.testcase/plugin.xml"/>
+
+        <file from="samples/bpmn2_xpdl2/projects/BPDM to XPDL Tests.mdzip"
+              to="samples/bpmn2_xpdl2/projects/BPDM to XPDL Tests.mdzip"/>
+
+        <file from="samples/bpmn2_xpdl2/schemas/bpmnxpdl_40a.xsd"
+              to="samples/bpmn2_xpdl2/schemas/bpmnxpdl_40a.xsd"/>
+
+        <file from="samples/bpmn2_Xpdl2/schemas/TC-1025_schema_10_xpdl.xsd"
+              to="samples/bpmn2_Xpdl2/schemas/TC-1025_schema_10_xpdl.xsd"/>
+
+        <file from="samples/bpmn2_Xpdl2/testcases/BPMN2 Process for Test Case 001.xpdl"
+              to="samples/bpmn2_Xpdl2/testcases/BPMN2 Process for Test Case 001.xpdl"/>
+
+    </installation>
+</resourceDescriptor>
+
